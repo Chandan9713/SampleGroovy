@@ -1,8 +1,4 @@
 import jenkins.model.Jenkins
-node ('master')
-{
-
-
 Jenkins j = Jenkins.instance
 
 int active_builds = 0
@@ -22,4 +18,4 @@ j.slaves.each { slave ->
 
 
 println "Queue: ${j.queue.items.size()}, Active: ${active_builds}, Free executors: ${inactive_executors}"
-}
+
