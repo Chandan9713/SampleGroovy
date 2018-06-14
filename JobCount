@@ -1,7 +1,7 @@
-pipeline
-{
 
 import jenkins.model.Jenkins
+pipeline
+{
 
 
 
