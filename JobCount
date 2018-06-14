@@ -1,7 +1,6 @@
-
-import jenkins.model.Jenkins
-pipeline
+node
 {
+import jenkins.model.Jenkins
 
 
 
