@@ -1,8 +1,10 @@
+pipeline
+{
+
 import jenkins.model.Jenkins
 
 
-pipeline
-{
+
 agent any
 stage ("Build")
 {
